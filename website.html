@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<link rel="stylesheet" href="CSSwebsite.css">
+	<meta charset="utf-8"/>
+	<title> Potentia Hospital Comparison Tool  </title>
+	<script type="text/javascript">
+		title = "Potentia Hospital Comparison Tool <br>";
+		function openTab(tabName) 
+		{
+			var i, x;
+			x = document.getElementsByClassName("containerTab");
+			for (i = 0; i < x.length; i++) 
+			{
+				x[i].style.display = "none";
+			}
+			document.getElementById(tabName).style.display = "block";
+		}
+	</script>
+	<div class="header">
+		<img src="PA-Image.png" alt="Potentia Analytic" >
+		<p>Hostpital Comparison Tool</p>
+	</div>
+	
+	
+</head>
+
+<body>
+	
+		<div class="row">
+			<div class="clickTabs" onclick="openTab('inception');" style="color:black;background:white;">Inception</div>
+			<div class="clickTabs" onclick="openTab('documents');" style="color:black;background:white;">Documents</div>
+			<div class="clickTabs" onclick="openTab('team');" style="color:black;background:white;">The Team</div>
+		</div>
+		
+		<div id="inception" class="containerTab" style="display:none;background:green">
+			<span onclick="this.parentElement.style.display='none'" class="closebtn">Close</span>
+			<h2>Inception page</h2>
+			<p>Inception goes here</p>
+		</div>
+		
+		<div id="documents" class="containerTab" style="display:none;background:blue">
+			<span onclick="this.parentElement.style.display='none'" class="closebtn">Close</span>
+			<h2>Documents page</h2>
+			<p>Documents go here</p>
+		</div>
+
+		<div id="team" class="containerTab" style="display:none;background:red">
+			<span onclick="this.parentElement.style.display='none'" class="closebtn">Close</span>
+			<h2>Team Page</h2>
+			<p>team members go here</p>
+		</div>
+		
+
+	
+</body>
+
+</html>
