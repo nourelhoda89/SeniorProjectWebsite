@@ -1,0 +1,72 @@
+.clickTabs 
+{
+	float: left;
+	width: 28%;
+	margin-top: 25px;
+	outline-width: 5px;
+	outline-style: solid;
+	outline-color: black;
+	padding: 40px;
+    text-align: center;
+    font-size: 25px;
+    cursor: pointer;
+    color: white;
+	
+	
+}
+
+.containerTab 
+{
+    padding: 30px;
+    color: white;
+	outline-width: 5px;
+	outline-style: solid;
+	outline-color: black;
+	display: table-cell;
+	margin: 5px;
+}
+
+
+.row:after 
+{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+.closebtn 
+{
+    float: right;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+	outline-width: 1px;
+	outline-style: double;
+	outline-color: black;
+}
+
+.header 
+{
+	padding: 30px;
+	text-indent: 45px;
+	background: maroon;
+	color: black;
+	font-size: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
