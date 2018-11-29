@@ -1,4 +1,5 @@
 body {
+	
 	margin: 0;
 	font-family: Arial, Helvetica, sans-serif;
   }
@@ -7,10 +8,10 @@ body {
 	color:#11D320;
 }
 .navBar {
-	background: #efefef;
+	background-color: #efefef;
 	clear: both;
 	height: 100px;
-	color:#003366;
+	
 }
 #logo {
 	float:left;
@@ -20,14 +21,25 @@ body {
 	float: right;
 }
 li{
+	color:#003366;
 	font-weight: bold;
 	display: inline;
 	padding-right: 20px;
 	font-size: 20px;
+
+}
+#documentation{
 	text-decoration: none;
+	background-color: #efefef;
+	font-size:24px;
+	color:#003366;
+	height: 200px;
+	padding: 20px;
+	
+	text-align: center;
+	
 	
 }
-
 
 
 
