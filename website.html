@@ -2,12 +2,12 @@
 <html lang="en">
 
 <head>
+	<meta charset="utf-8"/>
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" 
 	integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" 
 	crossorigin="anonymous">
 
 	<link rel="stylesheet" href="CSSwebsite.css">
-	<meta charset="utf-8"/>
 	<title> Potentia Hospital Comparison Tool  </title>
 	<script src="animation.js"></script>
 </head>
@@ -15,21 +15,37 @@
 	<div >
 		<br><br>
 	</div>
-	<!--Navigation Bar-->
-	<div class="navBar">
-			<a href="https://www.potentiaco.com/"><img id="logo"  src="pa-logo.png" width="200px"></a>
-			
-		<ul id="navList">
-			<li><a href="#home">Home</a></li>
-			<li><a href="#project">Project</a></li>				
-			<li><a href="#team">Team</a></li>	
-			<li><a href="#documentation">Documentation</a></li>
-		</ul>
-	</div>
-<br>
+	<!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+			<div class="container">
+			  <a class="navbar-brand" href="#">
+				<img src="img/pa-logo.png" width="150"  alt="">
+			  </a>
+			  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			  </button>
+			  <div class="collapse navbar-collapse" id="navbarResponsive">
+				<ul class="navbar-nav ml-auto">
+				  <li class="nav-item active">
+					<a class="nav-link" href="#project">Project
+					  <span class="sr-only">(current)</span>
+					</a>
+				  </li>
+				  <li class="nav-item">
+					<a class="nav-link" href="#team">Team</a>
+				  </li>
+				  <li class="nav-item">
+					<a class="nav-link" href="#documentation">Documentation</a>
+				  </li>
+				  
+				</ul>
+			  </div>
+			</div>
+		  </nav>
+
 <!--Introduction Picture-->
-<div>
-	<a href=""><img id="introPic" src="waiting.jpg" width="100%" height="350px"</a>
+<div class="intro">
+	<a href=""><img id="introPic" src="img/waiting.jpg" width="100%" height="350px"</a>
 </div>
 
 <!--Home-->	
@@ -42,26 +58,67 @@
 		<br><br><br><br>
 </div>
 <!--team-->	
-
 <div id="team">
-		<br><br><br><br>
-</div>
+	<table>
+		<tr>
+			<td>
+				<a href="http://www2.cs.siu.edu/~nfarhat/"><img src="img/nour.jpg" alt="Avatar" 
+					style="width:250px ; height:250px;"></a>
+			</td>
+		
+			<td>
+				<a href="http://www2.cs.siu.edu/~nramsey/"><img src="img/nick.jpg" alt="Avatar" 
+					style="width:250px ; height:250px;"></a>
+			</td>
+			<td>
+				<a href="http://www2.cs.siu.edu/~nramsey/"><img src="img/nick.jpg" alt="Avatar" 
+					style="width:250px ; height:250px;"></a>
+			</td>
+		
+		</tr>
+		<tr>
+			<td>Nour Farhat</td>
+			<td>Nick Ramsey</td>
+			<td>Jeremy</td>
+		</tr>
+	</table>
+	<table>
+		<tr>
+			<td>
+				<a href="http://www2.cs.siu.edu/~bpowers/"><img src="img/brennan.jpg" alt="Avatar" 
+					style="width:250px ; height:250px;"></a>
+			</td>
+			<td>
+				<a href="http://www2.cs.siu.edu/~nramsey/"><img src="img/nick.jpg" alt="Avatar" 
+					style="width:250px ; height:250px;"></a>
+			</td>
+		</tr>
+		<tr>
+			<td>Brennam</td>
+			<td>Grant Todd</td>
+		</tr>
+	</table> 
+	</div>
 
-<!--documentation-->	
-<div id="documentation">
-	<h2>Documentation</h2>
-    <span><hr class="star-light"> </span>
-	<a href="requirments.html">Requirments</a>
-	<a href="plan.html">Project Plan</a>
-	<br>
-	<a href="design.html">Project Design</a>
-	<a href="">GitHub Repo</a>
+<!--documentation-->
+<div id="documentation">	
+<table>
+	<tr>
+		<th colspan="2"> <a href="">Documentation</a></th>
+	</tr>
+	<tr>
+		<td><a href="requirments.html">Requirments</a></td>
+		<td><a href="https://docs.google.com/document/d/1RpNPVCDIz_V3qb3k_33iwaac2aaePKGD_7GwLfLGiDE/edit?ts=5bfd66f1">Project Plan</a></td>
+	</tr>
+	<tr>
+		<td><a href="design.html">Project Design</a></td>
+		<td>	<a href="">GitHub Repo</a></td>
+	</tr>
+</table>
+</div>
+  
 
 <div>
 
-
-
-	
 </body>
-
 </html>
