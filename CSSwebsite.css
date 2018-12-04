@@ -1,5 +1,7 @@
 body {
-	margin: 15px;
+	margin: 20px;
+	color:#0d6dba !important;
+	text-decoration: none;
 }
   nav .navbar-nav li a{
 	color:#0d6dba !important;
@@ -8,17 +10,27 @@ body {
 }
 nav .navbar-nav li a:hover{
 	color:#0dba2f !important;
-	text-decoration: none;
-
 }
+#project{
+	background-color:#efefef;
+	padding:20px;
+	 text-align: center;
+}
+p{
+	 font-size: 20px;
+	margin:20px;
+	 padding:20px;
+	 text-align: center;
+ }	
 #team{
-	text-decoration: none;
+	
 	background-color:#ADD8E6;
 	align-content: center;
 	text-align: center;
-	margin:10px;
-	padding:10px
-		
+	margin:20px;
+}
+#team img{
+	border-radius: 5%;
 }
 table{
 	margin-bottom: auto;
@@ -28,35 +40,27 @@ table{
 }
 td{
 	padding:15px;
-	color:#001a66;
 	font-weight: bold;
 	text-align: center;
-	text-decoration: none;
 }
 #documentation{
 	background-color: #efefef;
 	text-align: center;	
 }
 #documentation a{
-	color:#0d6dba;
 	padding-top:20px;
 	padding-bottom:20px;
 	padding-right:25px;
 	padding-left:25px;
-	margin:10px;
+	margin:20px;
 	font-size:30px;
-	text-decoration: none;
-	
 	
 }
 #documentation a:hover{
 	color:#0dba2f;
-	text-decoration: none;
 	font-weight: bolder;
 }
-#team img{
-	border-radius: 5%;
-}
+
 
 
 
