@@ -1,2 +1,2 @@
 # SeniorProjectWebsite
-Brennan and I will be working on building our website for the senior project
+Grant and I will be working on building our website for the senior project
